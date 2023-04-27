@@ -17,7 +17,19 @@ def Add_line():
 
     #test if working
     print ("lines added in txt file:",my_line)
-  
-Add_line()
 
+# add while true to keep running the program when the user answer "y"
+while True:
+    Add_line()
+
+    # ask the user if there are more lines
+    more_lines = input("Are there more lines y/n?")
+
+    while more_lines.lower() != "y" and  more_lines.lower() != "n":
+        more_lines = input("Are there more lines y/n?")
+    if more_lines.lower() == "n":
+        break
+
+                   
+    
 
