@@ -15,7 +15,7 @@ Are there more lines y/n? n
 ![](mylife/p3_exp_opt.PNG)
 
 # Example Appended files after running the Program
-![](mylife/p1_exp_txt.PNG) 
+![](mylife/p3_exp_txt.PNG) 
 # How To Use / Run
 1. Install Python on your computer to run the code. You can download its latest version here: https://www.python.org/downloads/ 
 2. Copy the code from the repository. 
